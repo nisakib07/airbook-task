@@ -18,7 +18,7 @@ const Featured = () => {
     <div className="mt-20 max-w-screen-xl mx-auto">
       <h1 className="text-3xl font-bold ml-3">Featured Destinations</h1>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 mt-3">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 mt-6">
         {items?.map((item) => (
           <div className="card bg-base-100 shadow-xl">
             <figure className="p-2">

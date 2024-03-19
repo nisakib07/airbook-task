@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet-active {
+  @apply bg-yellow-500;
+}
+
+/* .swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  @apply bottom: var(--swiper-pagination-bottom, 10px);
+  top: var(--swiper-pagination-top, auto);
+  left: 0;
+  width: 100%;
+} */

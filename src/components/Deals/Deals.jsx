@@ -48,7 +48,7 @@ const Deals = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper mt-3">
+        className="mySwiper mt-6">
         {items?.map((item) => (
           <SwiperSlide>
             <div className="flex items-center gap-3 shadow-2xl">
