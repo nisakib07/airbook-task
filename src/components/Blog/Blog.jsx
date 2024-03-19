@@ -66,10 +66,6 @@ const Blog = () => {
           <SwiperSlide>
             <div className="flex items-center gap-3 shadow-2xl">
               <img src={item?.image} alt="" />
-              <div>
-                <p className="text-sm font-medium">{item?.name}</p>
-                <p className="text-blue-500 font-bold">{item?.description}</p>
-              </div>
             </div>
           </SwiperSlide>
         ))}
