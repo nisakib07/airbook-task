@@ -30,12 +30,15 @@ const Banner = () => {
     },
   ];
 
+  const bgStyle = {
+    background: `url('${banner}')`,
+    backgroundSize: "cover",
+    backgroundPosition: "bottom left",
+  };
+
   return (
-    <div>
-      <div className="">
-        <img src={banner} className="h-[650px] w-full absolute" alt="" />
-      </div>
-      <div className="relative top-40 px-24">
+    <div style={bgStyle} className="pt-24 pb-36">
+      <div className=" top-40 px-24">
         <h1 className="text-6xl text-white ml-4">
           Welcome To{" "}
           <span className="text-blue-600 font-semibold">AirBook</span>{" "}
